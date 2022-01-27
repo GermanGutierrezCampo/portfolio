@@ -4,8 +4,8 @@ import { DynamicParticles } from './dynamic-particles';
 export function Landing() {
   const { t } = useTranslation('global');
   return (
-    <>
-      <div className="grid place-items-center bg-gray-800 h-screen w-screen">
+    <div className='relative bg-gray-800 h-screen w-screen'>
+      <div className="absolute grid place-items-center h-screen w-screen">
         <div className='text-center text-white text-5xl font-semibold	z-10'>
           <p>{t('landing.title')} <span className='text-pink-600'>Germán Gutiérrez</span>.</p>
           <p>{t('landing.subtitle')}</p>
@@ -15,6 +15,6 @@ export function Landing() {
 
       </div>
       <DynamicParticles />
-    </>
+    </div>
   );
 }

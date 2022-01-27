@@ -4,7 +4,9 @@ export function DynamicParticles() {
   return (
     <Particles
       id="tsparticles"
+      className="h-screen w-screen"
       options={{
+        fullScreen: { enable: false },
         fpsLimit: 60,
         interactivity: {
           events: {
