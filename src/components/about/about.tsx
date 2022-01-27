@@ -23,7 +23,7 @@ export function About() {
   ]);
 
   return (
-    <div className="container mx-auto text-gray-600">
+    <div className="container mx-auto text-gray-600 mb-32">
       <div className='text-center md:text-5xl text-4xl font-semibold mt-32 uppercase'>
           {t('navbar.about')}
       </div>
