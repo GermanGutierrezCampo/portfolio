@@ -9,8 +9,8 @@ export function Landing() {
         <div className='text-center text-white text-5xl font-semibold	z-10'>
           <p>{t('landing.title')} <span className='text-pink-600'>Germán Gutiérrez</span>.</p>
           <p>{t('landing.subtitle')}</p>
-          <button className='mt-5 text-4xl bg-transparent hover:bg-teal-400 font-semibold py-2 px-4 border border-white 
-          hover:border-transparent rounded'>{t('landing.button')} &rarr;</button>
+          <button className='mt-5 text-3xl bg-transparent hover:bg-teal-400 py-2 px-4 border border-white rounded
+          hover:border-transparent'>{t('landing.button')} &rarr;</button>
         </div>
 
       </div>
