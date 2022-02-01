@@ -9,5 +9,17 @@
         "about": "About",
         "portfolio": "Portfolio",
         "contact": "Contact"
+    },
+    "about": {
+        "dynamic_title": "Dynamic",
+        "dynamic_description": "Websites don't have to be static, I love making pages come to life.",
+        "fast_title": "Fast",
+        "fast_description": "Fast load times and lag free interaction, my highest priority.",
+        "intuitive_title": "Intuitive",
+        "intuititve_description": "Strong preference for easy to use, intuitive UX/UI.",
+        "responsive_title": "Responsive",
+        "responsive_description": "My layouts will work on any device, big or small.",
+        "me_title": "Who's this guy?",
+        "me_description": "Description  Description Description Description Description Description Description Description Description Description Description Description Description Description Description"
     }
 }
