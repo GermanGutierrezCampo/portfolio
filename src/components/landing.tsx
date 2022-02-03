@@ -14,7 +14,7 @@ export function Landing() {
             <p>{t('landing.subtitle')}</p>
           </div>
           <button className='mt-5 text-3xl bg-transparent hover:bg-teal-400 py-2 px-4 border border-white rounded
-          hover:border-transparent flex items-center'>{t('landing.button')} <Icon className='ml-3' path={mdiArrowRight} color="white" size={1}></Icon> </button>
+          hover:border-transparent flex items-center group'>{t('landing.button')} <Icon className='group-hover:rotate-90 transition duration-300' path={mdiArrowRight} color="white" size={1}></Icon> </button>
         </div>
 
       </div>
