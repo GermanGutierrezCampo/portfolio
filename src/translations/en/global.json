@@ -21,5 +21,8 @@
         "responsive_description": "My layouts will work on any device, big or small.",
         "me_title": "Who's this guy?",
         "me_description": "Description  Description Description Description Description Description Description Description Description Description Description Description Description Description Description"
+    },
+    "portfolio": {
+        "projects": "Projects"
     }
 }

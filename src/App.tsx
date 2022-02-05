@@ -4,7 +4,7 @@ import { Contact } from './components/contact';
 import { Footer } from './components/footer';
 import { Landing } from './components/landing';
 import { Navbar } from './components/navbar';
-import { Portfolio } from './components/portfolio';
+import { Portfolio } from './components/portfolio/portfolio';
 
 function App() {
 
